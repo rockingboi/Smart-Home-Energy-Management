@@ -39,9 +39,6 @@ Build a lightweight forecasting model for deployment in smart systems
 ## 📦 requirements.txt
 You can create this file to install dependencies in one command:
 
-txt
-Copy
-Edit
 numpy
 pandas
 matplotlib
