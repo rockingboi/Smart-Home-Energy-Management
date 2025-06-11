@@ -15,3 +15,50 @@ With the increasing penetration of IoT devices in smart homes, energy consumptio
 - 📉 Data pre-processing and transformation for time series modeling
 - 🧪 **Exploratory Data Analysis (EDA)** for visual and statistical insights
 - ✅ Model training, evaluation, and saving using Python
+## 🧠 Model Details
+Model file: my_model.pkl
+
+Input data: Time series data from various household appliances (e.g., AC, heater, lights)
+
+Target variable: Electrical load in watts/kW
+
+Libraries used: pandas, matplotlib, seaborn, statsmodels, tensorflow/keras
+
+The model expects time series data in a processed format, ideally as a DataFrame with datetime index and appliance load columns.
+
+## 📈 Sample Plots (from EDA)
+Load trends over time
+Daily/weekly consumption patterns
+Appliance-wise usage comparison
+
+## ✅ Goals
+Understand time series modeling using real-world IoT data
+Compare classical (ARIMA) vs deep learning (LSTM) performance
+Build a lightweight forecasting model for deployment in smart systems
+
+## 📦 requirements.txt
+You can create this file to install dependencies in one command:
+
+txt
+Copy
+Edit
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+tensorflow
+keras
+
+## 🧪 Future Work
+Real-time prediction via API
+Integration with home automation systems
+Make proper Hardware Device
+
+## 🙋‍♂️ Author
+Puneet Sharma
+Self-learning project for exploring time series forecasting in smart home IoT systems.
+
+
+
